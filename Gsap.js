@@ -1,11 +1,11 @@
 gsap.from(".box",{
-          x:1200,
+          x:200,
           rotate:360,
           duration:2,
           borderRadius:50,
           scale:0.5,
           opacity:0,
-          repeat:2,
+          repeat:-1,
           yoyo:true,
           stagger:0.4,
 

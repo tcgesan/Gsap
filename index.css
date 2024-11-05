@@ -2,7 +2,11 @@
           margin: 0;
           padding: 0;
 }
-
+body{
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden;
+}
 
 .page1{
           width: 100%;
@@ -30,6 +34,30 @@
           height: 100vh;
           background-color:lavender;
 }
+@font-face {
+          font-family: 'robo';
+          src: url(font/Poppins-Regular.ttf);
+}
+
+.page4{
+          width: 100%;
+          display: flex;
+          font-family: robo;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color:antiquewhite;
+}
+
+.page5{
+          width: 100%;
+          display: flex;
+          font-family: robo;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color:blueviolet;
+}
 
 .page1 .box{
           width: 200px;
@@ -38,9 +66,16 @@
           border-radius: 20px;
 }
 
+.page5 .box{
+          width: 200px;
+          height: 200px;
+          background-color: white;
+          border-radius: 20px;
+}
+
 
 .page2 .box{
-          width: 200px;
+          width: 600px;
           height: 200px;
           background-color: white;
           border-radius: 20px;
@@ -51,4 +86,12 @@
           height: 200px;
           background-color:darkblue;
           border-radius: 20px;
+}
+
+.page4 h1{
+         font-family: robo;
+         text-transform: uppercase;
+         font-size: 30vw;
+         margin-left: 80%;
+         font-weight: 600;
 }

@@ -40,9 +40,12 @@ gsap.from(".page2 .box",{
           scale:0,
           duration:1,
           scrollTrigger:{
-                    trigger:".page2 .box",
+                    trigger:".page2",
                     scrub:2,
                     markers:true,
+                    start:"top 0%",
+                    pin:true,
+                    end:"top -120%",
                     scroller:"body",
           }
 })
@@ -55,5 +58,19 @@ gsap.from(".page3 .box",{
                     trigger:".page3 .box",
                     scrub:2,
                     scroller:"body",
+          }
+})
+
+gsap.to(".page4 h1",{
+          transform:"translate(-160%)",
+          duration:3,
+          scrollTrigger:{
+                 trigger:".page4",
+                 scroller:"body",
+                 scrub:3,
+                 start:"top 0%",
+                 end:"top -120%",
+                 pin:true,
+                 markers:true,
           }
 })

@@ -31,12 +31,12 @@ gsap.from(".page1 .box",{
           // x:500,
           rotate:360,
           scale:0,
-          duration:1
+          duration:0.4
 })
 
 gsap.from(".page2 .box",{
           // x:500,
-          rotate:360,
+          // rotate:360,
           scale:0,
           duration:1,
           scrollTrigger:{
@@ -74,3 +74,18 @@ gsap.to(".page4 h1",{
           //        markers:true,
           }
 })
+
+
+
+
+
+
+
+const scroll = new LocomotiveScroll({
+       el: document.querySelector("[data-scroll-container]"),
+       smooth: true
+     });
+     
+     scroll.on("scroll", () => {
+       console.log("Locomotive Scroll is working!");
+     });

@@ -42,7 +42,7 @@ gsap.from(".page2 .box",{
           scrollTrigger:{
                     trigger:".page2",
                     scrub:2,
-                    markers:true,
+                    // markers:true,
                     start:"top 0%",
                     pin:true,
                     end:"top -120%",
@@ -71,6 +71,6 @@ gsap.to(".page4 h1",{
                  start:"top 0%",
                  end:"top -120%",
                  pin:true,
-                 markers:true,
+          //        markers:true,
           }
 })

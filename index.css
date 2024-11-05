@@ -3,28 +3,52 @@
           padding: 0;
 }
 
-body{
+
+.page1{
           width: 100%;
           display: flex;
           justify-content: center;
+          align-items: center;
           height: 100vh;
-          align-items: center;
-}
-.box{
-          width: 150px;
-          background-color: blue;
-          border-radius: 10px;
-          height: 150px;
-          position: absolute;
-          margin-left: -60%;
+          background-color: blueviolet;
 }
 
-.h1s{
-
+.page2{
           width: 100%;
-          height: 7rem;
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-direction: column;
+          height: 100vh;
+          background-color:crimson;
+}
+
+.page3{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color:lavender;
+}
+
+.page1 .box{
+          width: 200px;
+          height: 200px;
+          background-color: white;
+          border-radius: 20px;
+}
+
+
+.page2 .box{
+          width: 200px;
+          height: 200px;
+          background-color: white;
+          border-radius: 20px;
+}
+
+.page3 .box{
+          width: 200px;
+          height: 200px;
+          background-color:darkblue;
+          border-radius: 20px;
 }
